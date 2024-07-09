@@ -32,4 +32,4 @@ if __name__ == "__main__":
 
     add_all_changes()
     commit_changes(commit_message)
-    push_changes(branch_name)
+    push_changes("main")
