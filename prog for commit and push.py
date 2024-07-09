@@ -28,7 +28,7 @@ def push_changes(branch):
 
 if __name__ == "__main__":
     commit_message = input("Enter commit message: ")
-    branch_name = input("Enter branch name: ")
+    #branch_name = input("Enter branch name: ")
 
     add_all_changes()
     commit_changes(commit_message)
