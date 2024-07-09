@@ -1,22 +1,3 @@
-
-# import subprocess
-
-# # Создаем список процессов, которые нужно убить
-# process_names = ['Lively.exe', 'Rainmeter.exe', 'RoundedTB.exe', 'browser.exe']
-
-# # Функция для вывода информации о свободной оперативной памяти
-# def get_ram_usage():
-    # return psutil.virtual_memory().available / 1024  *  *  3
-
-
-# for process_name in process_names:
-    # # Убиваем процесс
-    # try:
-        # subprocess.run(['taskkill', '/F', '/IM', process_name], check=False)
-    # except Exception as e:
-        # print(f'Ошибка при попытке убить процесс "{process_name}": {e}')
-        
-        
 import psutil
 
 def kill_processes_by_name(process_names):
